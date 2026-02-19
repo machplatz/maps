@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+
+    <!-- Icons (HTTPS) -->
+    <Style id="offen">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://map.mach-platz.ch/shared/icons/offen.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <Style id="finanziert">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://map.mach-platz.ch/shared/icons/finanziert.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <!-- Original schema (optional, keeps your attributes) -->
+    <Schema name="import" id="import">
+      <SimpleField name="Bild" type="string"/>
+      <SimpleField name="Nummer" type="string"/>
+      <SimpleField name="Namme" type="string"/>
+      <SimpleField name="Adresse" type="string"/>
+      <SimpleField name="Credits" type="string"/>
+      <SimpleField name="Status" type="string"/>
+      <SimpleField name="lon" type="float"/>
+      <SimpleField name="lat" type="float"/>
+    </Schema>
+
+    <Folder>
+      <name>import</name>
+
+      <!-- import.1 -->
+      <Placemark id="import.1">
+        <name>03</name>
+        <styleUrl>#finanziert</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <div><b>Adresse:</b> Bernoullistrasse 5</div>
+            <div><b>Status:</b> finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">3</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Bernoullistrasse 5</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">finanziert</SimpleData>
+          <SimpleData name="lon">7.582565</SimpleData>
+          <SimpleData name="lat">47.559511</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.582565,47.559511,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.2 -->
+      <Placemark id="import.2">
+        <name>01 – Plakat noch in Erstellung</name>
+        <styleUrl>#finanziert</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 01</b><br/>
+            <div><b>Adresse:</b> Lohnhofgässlein 10</div>
+            <div><b>Status:</b> finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">1</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Lohnhofgässlein 10</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">finanziert</SimpleData>
+          <SimpleData name="lon">7.588317</SimpleData>
+          <SimpleData name="lat">47.555152</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.588317,47.555152,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.3 -->
+      <Placemark id="import.3">
+        <name>04 – Plakat noch in Erstellung</name>
+        <styleUrl>#finanziert</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 04</b><br/>
+            <div><b>Adresse:</b> Nadelberg 11</div>
+            <div><b>Status:</b> finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">4</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Nadelberg 11</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">finanziert</SimpleData>
+          <SimpleData name="lon">7.585598</SimpleData>
+          <SimpleData name="lat">47.558532</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.585598,47.558532,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.4 -->
+      <Placemark id="import.4">
+        <name>02 – Plakat noch in Erstellung</name>
+        <styleUrl>#finanziert</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 02</b><br/>
+            <div><b>Adresse:</b> Schützengraben 2</div>
+            <div><b>Status:</b> finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">2</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Schützengraben 2</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">finanziert</SimpleData>
+          <SimpleData name="lon">7.584094</SimpleData>
+          <SimpleData name="lat">47.55576</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.584094,47.555760,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.5 -->
+      <Placemark id="import.5">
+        <name>06 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 06</b><br/>
+            <div><b>Adresse:</b> Untere Rebgasse 5</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">6</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Untere Rebgasse 5</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.593132</SimpleData>
+          <SimpleData name="lat">47.561709</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.593132,47.561709,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.6 -->
+      <Placemark id="import.6">
+        <name>05 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 05</b><br/>
+            <div><b>Adresse:</b> Wildma Gässli 2</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">5</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Wildma Gässli 2</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.59138</SimpleData>
+          <SimpleData name="lat">47.560442</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.591380,47.560442,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.7 -->
+      <Placemark id="import.7">
+        <name>15 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 15</b><br/>
+            <div><b>Adresse:</b> Elsässerstrasse 2</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">15</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Elsässerstrasse 2</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.581605</SimpleData>
+          <SimpleData name="lat">47.566969</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.581605,47.566969,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.8 -->
+      <Placemark id="import.8">
+        <name>29 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 29</b><br/>
+            <div><b>Adresse:</b> Hebelplatz 6</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">29</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Hebelplatz 6</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.57587</SimpleData>
+          <SimpleData name="lat">47.564811</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.575870,47.564811,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.9 -->
+      <Placemark id="import.9">
+        <name>19 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 19</b><br/>
+            <div><b>Adresse:</b> Klingelbergstrasse 82</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">19</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Klingelbergstrasse 82</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.578422</SimpleData>
+          <SimpleData name="lat">47.56478</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.578422,47.564780,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.10 -->
+      <Placemark id="import.10">
+        <name>17 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 17</b><br/>
+            <div><b>Adresse:</b> St. Johanns-Rheinweg 50</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">17</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">St. Johanns-Rheinweg 50</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.583947</SimpleData>
+          <SimpleData name="lat">47.565022</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.583947,47.565022,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.11 -->
+      <Placemark id="import.11">
+        <name>18 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 18</b><br/>
+            <div><b>Adresse:</b> St. Johanns-Rheinweg 50</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">18</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">St. Johanns-Rheinweg 50</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.584071</SimpleData>
+          <SimpleData name="lat">47.564785</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.584071,47.564785,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.12 -->
+      <Placemark id="import.12">
+        <name>16 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 16</b><br/>
+            <div><b>Adresse:</b> St. Johanns-Ring 4</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">16</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">St. Johanns-Ring 4</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.581222</SimpleData>
+          <SimpleData name="lat">47.566387</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.581222,47.566387,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.13 -->
+      <Placemark id="import.13">
+        <name>14 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 14</b><br/>
+            <div><b>Adresse:</b> Voltastrasse 27</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">14</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Voltastrasse 27</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.580614</SimpleData>
+          <SimpleData name="lat">47.57064</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.580614,47.570640,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.14 -->
+      <Placemark id="import.14">
+        <name>07 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 07</b><br/>
+            <div><b>Adresse:</b> Claragraben 114</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">7</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Claragraben 114</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.593545</SimpleData>
+          <SimpleData name="lat">47.563597</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.593545,47.563597,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.15 -->
+      <Placemark id="import.15">
+        <name>10 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 10</b><br/>
+            <div><b>Adresse:</b> Claragraben 130</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">10</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Claragraben 130</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.592824</SimpleData>
+          <SimpleData name="lat">47.564589</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.592824,47.564589,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.16 -->
+      <Placemark id="import.16">
+        <name>09 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 09</b><br/>
+            <div><b>Adresse:</b> Hammerstrasse 91</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">9</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Hammerstrasse 91</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.595451</SimpleData>
+          <SimpleData name="lat">47.565402</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.595451,47.565402,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.17 -->
+      <Placemark id="import.17">
+        <name>08 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 08</b><br/>
+            <div><b>Adresse:</b> Riehenring 118</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">8</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Riehenring 118</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.597809</SimpleData>
+          <SimpleData name="lat">47.566378</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.597809,47.566378,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.18 -->
+      <Placemark id="import.18">
+        <name>11 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 11</b><br/>
+            <div><b>Adresse:</b> Unterer Rheinweg 81</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">11</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Unterer Rheinweg 81</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.586817</SimpleData>
+          <SimpleData name="lat">47.566016</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.586817,47.566016,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.19 -->
+      <Placemark id="import.19">
+        <name>12 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 12</b><br/>
+            <div><b>Adresse:</b> Unterer Rheinweg 151</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">12</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Unterer Rheinweg 151</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.586378</SimpleData>
+          <SimpleData name="lat">47.569074</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.586378,47.569074,0</coordinates></Point>
+      </Placemark>
+
+      <!-- import.20 -->
+      <Placemark id="import.20">
+        <name>13 – Plakat noch in Erstellung</name>
+        <styleUrl>#offen</styleUrl>
+        <description><![CDATA[
+          <div style="font-family:Arial; font-size:14px; line-height:1.35;">
+            <b>Ort 13</b><br/>
+            <div><b>Adresse:</b> Unterer Rheinweg 168</div>
+            <div><b>Status:</b> nicht finanziert</div>
+            <div style="margin-top:8px;">
+              <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+                   style="max-width:320px; height:auto; border-radius:6px;" />
+              <div style="font-size:12px; margin-top:4px;">
+                Plakat noch in Erstellung<br/>
+                Credits: Plakat noch in Erstellung
+              </div>
+            </div>
+          </div>
+        ]]></description>
+        <ExtendedData><SchemaData schemaUrl="#import">
+          <SimpleData name="Bild">https://map.mach-platz.ch/shared/images/placeholder.png</SimpleData>
+          <SimpleData name="Nummer">13</SimpleData>
+          <SimpleData name="Namme">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Adresse">Unterer Rheinweg 168</SimpleData>
+          <SimpleData name="Credits">Plakat noch in Erstellung</SimpleData>
+          <SimpleData name="Status">nicht finanziert</SimpleData>
+          <SimpleData name="lon">7.586905</SimpleData>
+          <SimpleData name="lat">47.570616</SimpleData>
+        </SchemaData></ExtendedData>
+        <Point><coordinates>7.586905,47.570616,0</coordinates></Point>
+      </Placemark>
+
+    </Folder>
+  </Document>
+</kml>
