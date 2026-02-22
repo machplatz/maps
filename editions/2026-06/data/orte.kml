@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>MACH PLATZ! Juni 2026</name>
+
+    <!-- PIN: FINANZIERT -->
+    <Style id="pin_finanziert">
+      <IconStyle>
+        <scale>2</scale>
+        <Icon>
+          <href>https://map.mach-platz.ch/shared/icons/finanziert.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[
+          <div style="font-size:10pt; font-family:Helvetica, Arial, sans-serif; line-height:1.25;">
+            <div style="margin-bottom:8px;">
+              <img src="$[img]" style="width:100%; max-width:420px; height:auto;">
+            </div>
+            <div style="font-weight:bold;">$[title]</div>
+            <div>von $[credits]</div>
+            <div style="margin-top:8px;">$[address]</div>
+            <div style="margin-top:8px;">Plakat Nr. $[number]</div>
+            <div>Status: $[status]</div>
+          </div>
+        ]]></text>
+      </BalloonStyle>
+    </Style>
+
+    <!-- PIN: NICHT FINANZIERT -->
+    <Style id="pin_nicht_finanziert">
+      <IconStyle>
+        <scale>2</scale>
+        <Icon>
+          <href>https://map.mach-platz.ch/shared/icons/offen.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+
+    <!-- Ort Nr. 1 -->
+    <Placemark>
+  <name>Ortsname</name>
+  <styleUrl>#pin_finanziert</styleUrl>
+
+  <Point>
+    <coordinates>7.600000,47.560000,0</coordinates>
+  </Point>
+
+  <description><![CDATA[
+    <div>
+      <div style="margin-bottom:8px;">
+        <img src="https://map.mach-platz.ch/shared/images/placeholder.png"
+             style="width:100%; max-width:420px; height:auto;">
+      </div>
+
+      <div style="font-weight:bold;">Der Demokratie wegen</div>
+      <div>von Tim Rüger</div>
+
+      <div style="margin-top:8px;">Vogesenstrasse 102</div>
+
+      <div style="margin-top:8px;">Plakat Nr. 02</div>
+      <div>Status: finanziert</div>
+    </div>
+  ]]></description>
+</Placemark>
+
+  </Document>
+</kml>
