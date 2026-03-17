@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>MACH PLATZ! Juni 2026</name>
+
+    <!-- PIN -->
+    <Style id="pin">
+      <IconStyle>
+        <scale>2</scale>
+        <Icon>
+          <href>https://map.mach-platz.ch/shared/icons/finanziert.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+
+    <!-- Ort Nr. 1 -->
+    <Placemark>
+      <name>Plakat Nr. 1</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.582565,47.559511,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 2 -->
+    <Placemark>
+      <name>Plakat Nr. 2</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.588317,47.555152,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 3 -->
+    <Placemark>
+      <name>Plakat Nr. 3</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.585598,47.558532,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 4 -->
+    <Placemark>
+      <name>Plakat Nr. 4</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.584094,47.555760,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 5 -->
+    <Placemark>
+      <name>Plakat Nr. 5</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.593132,47.561709,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 6 -->
+    <Placemark>
+      <name>Plakat Nr. 6</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.591380,47.560442,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 7 -->
+    <Placemark>
+      <name>Plakat Nr. 7</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.581605,47.566969,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 8 -->
+    <Placemark>
+      <name>Plakat Nr. 8</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.575870,47.564811,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 9 -->
+    <Placemark>
+      <name>Plakat Nr. 9</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.578422,47.564780,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 10 -->
+    <Placemark>
+      <name>Plakat Nr. 10</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.583947,47.565022,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 11 -->
+    <Placemark>
+      <name>Plakat Nr. 11</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.584071,47.564785,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 12 -->
+    <Placemark>
+      <name>Plakat Nr. 12</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.581222,47.566387,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 13 -->
+    <Placemark>
+      <name>Plakat Nr. 13</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.580614,47.570640,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 14 -->
+    <Placemark>
+      <name>Plakat Nr. 14</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.593545,47.563597,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 15 -->
+    <Placemark>
+      <name>Plakat Nr. 15</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.592824,47.564589,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 16 -->
+    <Placemark>
+      <name>Plakat Nr. 16</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.595451,47.565402,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 17 -->
+    <Placemark>
+      <name>Plakat Nr. 17</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.597809,47.566378,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 18 -->
+    <Placemark>
+      <name>Plakat Nr. 18</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.586817,47.566016,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 19 -->
+    <Placemark>
+      <name>Plakat Nr. 19</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.586378,47.569074,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Ort Nr. 20 -->
+    <Placemark>
+      <name>Plakat Nr. 20</name>
+      <styleUrl>#pin</styleUrl>
+      <Point>
+        <coordinates>7.586905,47.570616,0</coordinates>
+      </Point>
+    </Placemark>
+
+
+  </Document>
+</kml>
